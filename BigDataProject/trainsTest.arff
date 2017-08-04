@@ -1,0 +1,13 @@
+
+@relation train
+@attribute	day	{weekday, saturday, sunday, holiday}
+@attribute	season	{spring, summer,autumn, winter}
+@attribute	wind	{none,  high, normal}
+@attribute	rain	{none, slight, heavy}
+@attribute	class	{onTime, late, veryLate, cancelled}
+
+@data
+
+weekday, winter, high, heavy,veryLate
+weekday, summer, high, heavy,onTime
+sunday, summer, normal, slight,onTime

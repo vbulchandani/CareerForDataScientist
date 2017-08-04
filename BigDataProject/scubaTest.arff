@@ -1,0 +1,19 @@
+@relation scuba 
+
+% Dive log data
+
+@attribute boatCondition {open, crowded, veryCrowded}
+@attribute viz {poor, good, excellent}
+@attribute waveheight  {normal, high}
+@attribute previousDive {yes, no}
+@attribute enjoyedDive {yes, no}
+
+
+@data
+
+open, excellent, high, no, yes 
+crowded, good, high, yes, no 
+ 
+
+
+

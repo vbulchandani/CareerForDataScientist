@@ -1,0 +1,36 @@
+% Vehicle Type, Engine Type, Mileage (in thousands), Model Year, How Disposed
+% Raw data in .doc file.  Students must convert to categorical and classify
+% the following:  car, V8, 119K miles, 1999
+% should be classified as Auction
+% from the train dataset Bramer Figure 2.1 page 26
+
+@relation vehicles
+@attribute VehicleType {Car, Truck, Motorcycle, SUV}
+@attribute Engine {V6, V8, Diesel, Electric}
+@attribute Mileage {low, med, high}
+@attribute Year {old, lateModel, new}
+@attribute HowDisposed {Retail, Auction, Junked}
+
+@data
+
+Car, V6, low, new, Retail
+Car, V8, low, lateModel, Retail
+Car, V8, med, lateModel, Retail
+Car, V8, high, old, Auction
+Truck, Diesel, med, new, Retail
+Car, Electric, med, new, Auction
+Motorcycle, Diesel, low,lateModel , Retail
+SUV, Diesel, med, new, Retail
+Car, V8, high, old, Auction
+Car, Diesel, med, lateModel, Retail
+Truck, V6, high, old, Junked
+Car, Diesel, high, lateModel, Retail
+Truck, V8, med, new, Auction
+Car, Diesel, high, new, Retail
+Car, V8, med, old, Auction
+Truck, Electric, high, lateModel, Retail
+Car, Electric, low, old, Retail
+Motorcycle, V6, med, lateModel, Retail
+Car, V6, med, new, Retail
+Car, V6, med, lateModel, Retail
+

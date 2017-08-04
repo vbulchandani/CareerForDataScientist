@@ -1,0 +1,31 @@
+@relation scuba 
+
+% data from Test 1 - What is the 1R for this set?
+
+@attribute boatCondition {open, crowded, veryCrowded}
+@attribute viz {poor, good, excellent}
+@attribute waveheight  {normal, high}
+@attribute previousDive {yes, no}
+@attribute enjoyedDive {yes, no}
+
+
+@data
+
+open, poor, normal, yes, yes
+open, poor normal, no, yes
+crowded, poor, normal, yes, no
+veryCrowded, good, normal, yes, no
+veryCrowded, excellent, high, yes, no
+veryCrowded, excellent, high, no, yes
+crowded, excellent, high, no, no
+open, good, normal, yes, yes
+open, excellent, high, yes, no
+veryCrowded, good, high , yes, no
+open, good, high,  no, no
+crowded, good, normal, no, no
+crowded, poor, high, yes, no
+veryCrowded, good, normal, no, yes
+ 
+
+
+
